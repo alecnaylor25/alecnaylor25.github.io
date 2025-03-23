@@ -1,3 +1,10 @@
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
 body {
     background-color: #FEF9EF;
 }
@@ -6,4 +13,48 @@ body {
     border-radius: 5% 5% 50% 5%;
     width: 90%;
     height: 25vh;
+    text-align: center;
+}
+h1 {
+    color:#FEF9EF;
+    font-family: "Oswald";
+    font-size: 400%;
+}
+p {
+    color:#FEF9EF;
+    font-family: "Oswald";
+}
+audio {
+    width: 90vw;
+}
+audio::-webkit-media-controls-panel {
+    background-color:#627264;
+}
+audio::-webkit-media-controls-mute-button {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-play-button {
+    background-color:#FEF9EF;
+    border-radius:50%;
+}
+audio::-webkit-media-controls-timeline-container {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-current-time-display {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-time-remaining-display {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-timeline {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-volume-slider-container {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-volume-slider {
+    color:#FEF9EF;
+}
+audio::-webkit-media-controls-seek-forward-button audio::-webkit-media-controls-seek-back-button audio::-webkit-media-controls-fullscreen-button audio::-webkit-media-controls-rewind-button audio::-webkit-media-controls-toggle-closed-captions-button audio::-webkit-media-controls-return-to-realtime-button {
+ display:none;
 }
